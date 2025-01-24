@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>come buy food from me</title>
+    <style>
+
+        body{
+            background-image: url("images/scream-chromebook-wallpaper.jpg");
+            background-color: -webkit-text;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<form method= post action="menu.php">
+    <table>
+        <tr>
+            <th>
+                username
+                <input>
+            </th>
+            <th>
+                password
+                <input>
+
+            </th>
+        </tr>
+        <tr>
+            <td>
+              <label for="food2">food</label><br>
+                <input type="text" id="food2" list="stuff"><br>
+            </td>
+            <td>
+
+            </td>
+        </tr>
+    </table>
+<datalist id="stuff">
+    <option value="soup"></option>
+    <option value="saled"></option>
+    <option value="chicken"></option>
+    <option value="turkey"></option>
+</datalist>
+
+    <datalist id="snacks">
+        <option value="chips"></option>
+        <option value="cookies"></option>
+        <option value="donuts"></option>
+    </datalist>
+
+    <datalist>id="drinks2">
+    <option value="water"></option>
+        <option value="juice"></option>
+        <option value="lemonade"></option>
+    </datalist>
+
+<label for="menu" > menu  </label><br>
+    <input type="text" id="menu" name="drink" list="snacks"><br>
+    <label for="menu" > drinks </label><br>
+    <input type="number" id="number" name="number"><br>
+
+    <button type="submit"  > submit</button><br>
+
+
+
+
+</form>
+</body>
+</html>
